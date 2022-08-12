@@ -1,5 +1,5 @@
 {
-  "name": "iot-lib",
+  "name": "node-iot-lib",
   "version": "0.1.0",
   "description": "Node.js library for IoT projects",
   "main": "src/index.js",
