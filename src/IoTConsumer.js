@@ -12,6 +12,14 @@ class IoTConsumer {
   unsubscribe(channel) {
     this.client.unsubscribe(channel);
   }
+
+  pSubscribe(pattern, callback) {
+    this.client.pSubscribe(pattern, callback);
+  }
+
+  pUnsubscribe(pattern) {
+    this.client.pUnsubscribe(pattern);
+  }
 }
 
 module.exports = IoTConsumer;
